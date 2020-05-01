@@ -186,7 +186,6 @@ const UIController = (()=> {
       parentElement.removeChild(document.querySelector(`#${selectorID}`)); 
     },
     clearFields: () => {
-      document.querySelector(domStrings.inputType).value ='inc'; 
       document.querySelector(domStrings.inputDescription).value =''; 
       document.querySelector(domStrings.inputValue).value =''; 
 
